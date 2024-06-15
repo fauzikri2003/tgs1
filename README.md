@@ -28,3 +28,4 @@ npm run dev
 npm run build
 ```
 "# tgs1" 
+"# tugas1-lab-pbk" 
