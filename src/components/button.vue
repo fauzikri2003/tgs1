@@ -1,0 +1,36 @@
+<template>
+    <div class="btn">
+        {{ buttonName }}
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'ButtonVue',
+    props: {
+        buttonName: {
+            type: String,
+            required: true
+        }
+    }
+}
+</script>
+
+<style scoped>
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+</style>
